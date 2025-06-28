@@ -6,6 +6,9 @@ import os
 import subprocess
 
 from keep_alive import keep_alive
+intents = discord.Intents.default()
+intents.message_content = True
+client = discord.Client(intents=intents)
 
 def check_and_install_requirements():
     required_packages = {
@@ -364,3 +367,6 @@ if __name__ == "__main__":
 
     if __name__ == "__main__":
         asyncio.run(main())
+
+try:
+    name = input(y)
