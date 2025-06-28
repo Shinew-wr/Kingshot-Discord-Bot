@@ -368,5 +368,4 @@ if __name__ == "__main__":
     if __name__ == "__main__":
         asyncio.run(main())
 
-try:
-    name = input(y)
+print '[?] Do you want to update now? [Y]es [N]o, default: [Y]'
