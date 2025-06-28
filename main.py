@@ -12,7 +12,6 @@ intents.message_content = True
 client = discord.Client(intents=intents)
 
 keep_alive()
-client.run(token)
 
 def check_and_install_requirements():
     required_packages = {
