@@ -5,6 +5,8 @@ import sys
 import os
 import subprocess
 
+from keep_alive import keep_alive
+
 def check_and_install_requirements():
     required_packages = {
         'discord.py': 'discord.py',
