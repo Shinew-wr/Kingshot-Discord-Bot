@@ -5,8 +5,6 @@ import sys
 import os
 import subprocess
 
-DISCORD_TOKEN=os.environ['discordkey']
-
 def check_and_install_requirements():
     required_packages = {
         'discord.py': 'discord.py',
