@@ -4,8 +4,9 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 import sys
 import os
 import subprocess
-
+import discord
 from keep_alive import keep_alive
+
 intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
